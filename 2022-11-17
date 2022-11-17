@@ -1,0 +1,19 @@
+uname –m
+aarch64
+
+[방법 1]
+pi@raspberrypi:~ $ pip install opencv-python
+
+[방법 2]
+pi@raspberrypi:~ $ sudo apt install python3-opencv
+
+[방법 3]
+pi@raspberrypi:~ $ sudo apt-get update && sudo apt-get upgrade
+pi@raspberrypi:~ $ sudo apt-get install python3-pip python3-virtualenv
+pi@raspberrypi:~ $ mkdir project
+pi@raspberrypi:~ $ cd project
+pi@raspberrypi:~ $ python3 –m pip install virtualenv
+pi@raspberrypi:~ $ python3 –m virtualenv env
+pi@raspberrypi:~ $ source env/bin/activate
+pi@raspberrypi:~ $ sudo apt install -y build-essential cmake pkg-config libjpeg-dev libtiff5-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5 python3-dev
+pi@raspberrypi:~ $ pip install opencv-python
