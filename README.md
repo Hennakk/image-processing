@@ -1,1 +1,1 @@
-# DSP_LAB
+# imgage-processing
